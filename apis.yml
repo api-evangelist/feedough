@@ -1,14 +1,12 @@
 aid: feedough
 name: Feedough
 description: >-
-  Feedough is a media platform and entrepreneurship resource covering startup
-  ideas, business models, and entrepreneurship. Founded in December 2013 by
-  Aashish Pahwa to bridge the information gap in the startup industry, Feedough
-  explains startup concepts in plain language without the fluff. The platform
-  is ranked among the top twenty startup websites globally and is cited as a
-  resource by institutions including Harvard Business School and the University
-  of Washington. Feedough offers guides, tools, AI-powered generators, brand
-  studies, and a community of over 20,000 entrepreneurs and AI enthusiasts.
+  Feedough is a media platform and entrepreneurship resource covering startup ideas,
+  business models, and entrepreneurship. Founded in December 2013 by Aashish Pahwa
+  to bridge the information gap in the startup industry, Feedough explains startup
+  concepts in plain language without the fluff. The platform is ranked among the top
+  twenty startup websites globally and is cited as a resource by institutions including
+  Harvard Business School and the University of Washington.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
@@ -16,7 +14,8 @@ tags:
   - Business Models
   - Entrepreneurship
   - Media
-url: https://raw.githubusercontent.com/api-evangelist/feedough/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/feedough/refs/heads/main/apis.yml
 created: '2026-03-24'
 modified: '2026-03-24'
 specificationVersion: '0.19'
