@@ -1,0 +1,14 @@
+{
+  "repo": "feedough",
+  "feeds": [
+    {
+      "source": "https://www.feedough.com/daily/",
+      "feed_url": "",
+      "title": "",
+      "saved": 0,
+      "error": "no_feed"
+    }
+  ],
+  "fetched": "2026-05-09T20:17:51Z",
+  "post_count": 0
+}
