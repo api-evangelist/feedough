@@ -3,15 +3,12 @@
   "feeds": [
     {
       "source": "https://www.feedough.com/daily/",
+      "feed_url": "https://www.feedough.com/daily/",
+      "title": "",
       "saved": 0,
-      "error": "HTTP 403 Forbidden"
-    },
-    {
-      "source": "https://www.feedough.com/feed/",
-      "saved": 0,
-      "error": "HTTP 403 Forbidden"
+      "method": "none"
     }
   ],
-  "fetched": "2026-06-27T12:41:01Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "post_count": 0
 }
