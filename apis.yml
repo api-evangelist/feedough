@@ -73,6 +73,12 @@ apis:
     x-platform: wordpress
     x-platform-surface: rest
 common:
+  - type: Plans
+    url: plans/feedough-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/feedough-rate-limits.yml
+  - type: FinOps
+    url: finops/feedough-finops.yml
   - type: DomainSecurity
     url: security/feedough-domain-security.yml
   - url: https://www.feedough.com/
