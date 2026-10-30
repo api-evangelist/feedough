@@ -64,40 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Feedough is a media platform and entrepreneurship resource covering startup ideas, business models, and entrepreneurship. Founded in December 2013 by Aashish Pahwa to bridge the information gap in the startup industry, Feedough explains startup concepts in plain language without the fluff. The platform is ranked among the top twenty startup websites globally and is cited as a resource by institutions including Harvard Business School and the University of Washington. Feedough offers guides, tools, AI-powered generators, brand studies, and a community of over 20,000 entrepreneurs and AI enthusiasts.
+Feedough is a media platform and entrepreneurship resource covering startup ideas, business models, and entrepreneurship. Founded in December 2013 by Aashish Pahwa to bridge the information gap in the startup industry, Feedough explains startup concepts in plain language without the fluff. The platform is ranked among the top twenty startup websites globally and is cited as a resource by institutions including Harvard Business School and the University of Washington.
+
+**Areas:** Business Models · Entrepreneurship · Media · Startups
+
+## Feedough on APIs.io
+
+Everything profiled for Feedough is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/feedough/](https://apis.io/providers/feedough/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Feedough RSS Feed](https://apis.io/apis/feedough/rss-feed/) — Feedough provides an RSS feed for its main content stream, allowing developers and readers to consume articles on startup ideas, business models, and…
+- [Feedough Website (WordPress REST)](https://apis.io/apis/feedough/feedough-com-website-wordpress-rest/) — The public WordPress REST API (wp-json) of the Feedough website at www.feedough.com: the route index of the site's content management system, catalogued as…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Feedough Domain Security](https://apis.io/security/feedough/feedough-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Feedough Plans Pricing](https://apis.io/plans/feedough/feedough-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Feedough Rate Limits](https://apis.io/rate-limits/feedough/feedough-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Feedough Finops](https://apis.io/finops/feedough/feedough-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.feedough.com/)
-- [About Feedough](https://www.feedough.com/about-us/)
-- [Startup Resources](https://www.feedough.com/startup-resources/)
+- [Blog](https://www.feedough.com/daily/)
+- [Terms of service](https://www.feedough.com/legal/terms/)
+- [Privacy policy](https://www.feedough.com/legal/privacy-policy/)
 
-## RSS Feed
+## API Evangelist rating
 
-Feedough provides an RSS feed for its main content stream, allowing developers and readers to programmatically consume articles on startup ideas, business models, and entrepreneurship using any standard feed parsing library.
+**Kin Score 14.8** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-- [Main RSS Feed](https://www.feedough.com/feed/)
+| Facet | Score |
+|---|---|
+| Discoverability | 39.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 28.9 |
 
-## WordPress REST API
+**Agent readiness 0.6** — human-only
 
-Feedough is built on WordPress and exposes the standard WordPress REST API, providing JSON endpoints for accessing posts, categories, tags, authors, and other content types.
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-- [WordPress REST API Documentation](https://developer.wordpress.org/rest-api/)
-- [Feedough API Root](https://www.feedough.com/wp-json/)
-- [Posts Endpoint](https://www.feedough.com/wp-json/wp/v2/posts)
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
 
-## Properties
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/feedough/](https://apis.io/providers/feedough/).
 
-- [Newsletter](https://www.feedough.com/subscribe/)
-- [Startup Daily](https://www.feedough.com/daily/)
-- [Partner with Feedough](https://www.feedough.com/partner-with-feedough/)
+## How this profile is made
 
-## Legal
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- [Privacy Policy](https://www.feedough.com/legal/privacy-policy/)
-- [Terms of Service](https://www.feedough.com/legal/terms/)
-- [Cookie Policy](https://www.feedough.com/legal/cookie-policy/)
-- [Disclaimer](https://www.feedough.com/disclaimer/)
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Feedough: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Social
+## Open an issue
 
-- [LinkedIn](https://www.linkedin.com/company/feedough)
-- [X](https://x.com/FeedoughCom)
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/feedough/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
